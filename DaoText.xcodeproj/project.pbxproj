@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F251F9DD1B0E665B00A533CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251F9DC1B0E665B00A533CE /* AppDelegate.swift */; };
+		F251F9E21B0E665B00A533CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F251F9E01B0E665B00A533CE /* Main.storyboard */; };
+		F251F9E41B0E665B00A533CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F251F9E31B0E665B00A533CE /* Images.xcassets */; };
+		F251F9E71B0E665B00A533CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F251F9E51B0E665B00A533CE /* LaunchScreen.xib */; };
+		F251F9F31B0E665B00A533CE /* DaoTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251F9F21B0E665B00A533CE /* DaoTextTests.swift */; };
+		F251F9FD1B0E746200A533CE /* DaoText.plist in Resources */ = {isa = PBXBuildFile; fileRef = F251F9FC1B0E746200A533CE /* DaoText.plist */; };
+		F251F9FF1B0E7F7C00A533CE /* DAOText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251F9FE1B0E7F7C00A533CE /* DAOText.swift */; };
+		F251FA011B0E83F400A533CE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251FA001B0E83F400A533CE /* Game.swift */; };
+		F251FA041B0E850300A533CE /* TextGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251FA031B0E850300A533CE /* TextGame.swift */; };
+		F251FA061B0E877100A533CE /* AudioGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251FA051B0E877100A533CE /* AudioGame.swift */; };
+		F251FA081B0E87BB00A533CE /* DAOAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251FA071B0E87BB00A533CE /* DAOAudio.swift */; };
+		F251FA0D1B0EDDBD00A533CE /* RegisterTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251FA0C1B0EDDBD00A533CE /* RegisterTextVC.swift */; };
+		F251FA0F1B0EE57300A533CE /* DaoAudio.plist in Resources */ = {isa = PBXBuildFile; fileRef = F251FA0E1B0EE57300A533CE /* DaoAudio.plist */; };
+		F251FA111B0EEE9A00A533CE /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251FA101B0EEE9A00A533CE /* Cache.swift */; };
+		F251FA141B0F0C1C00A533CE /* MostrarRegisterTextVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251FA131B0F0C1C00A533CE /* MostrarRegisterTextVCViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F251F9ED1B0E665B00A533CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F251F9CF1B0E665B00A533CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F251F9D61B0E665B00A533CE;
+			remoteInfo = DaoText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F251F9D71B0E665B00A533CE /* DaoText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaoText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F251F9DB1B0E665B00A533CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F251F9DC1B0E665B00A533CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F251F9E11B0E665B00A533CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F251F9E31B0E665B00A533CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F251F9E61B0E665B00A533CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F251F9EC1B0E665B00A533CE /* DaoTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaoTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F251F9F11B0E665B00A533CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F251F9F21B0E665B00A533CE /* DaoTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaoTextTests.swift; sourceTree = "<group>"; };
+		F251F9FC1B0E746200A533CE /* DaoText.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DaoText.plist; sourceTree = "<group>"; };
+		F251F9FE1B0E7F7C00A533CE /* DAOText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOText.swift; sourceTree = "<group>"; };
+		F251FA001B0E83F400A533CE /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F251FA031B0E850300A533CE /* TextGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextGame.swift; sourceTree = "<group>"; };
+		F251FA051B0E877100A533CE /* AudioGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioGame.swift; sourceTree = "<group>"; };
+		F251FA071B0E87BB00A533CE /* DAOAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOAudio.swift; sourceTree = "<group>"; };
+		F251FA0C1B0EDDBD00A533CE /* RegisterTextVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTextVC.swift; sourceTree = "<group>"; };
+		F251FA0E1B0EE57300A533CE /* DaoAudio.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DaoAudio.plist; sourceTree = "<group>"; };
+		F251FA101B0EEE9A00A533CE /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		F251FA131B0F0C1C00A533CE /* MostrarRegisterTextVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostrarRegisterTextVCViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F251F9D41B0E665B00A533CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F251F9E91B0E665B00A533CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F251F9CE1B0E665B00A533CE = {
+			isa = PBXGroup;
+			children = (
+				F251F9D91B0E665B00A533CE /* DaoText */,
+				F251F9EF1B0E665B00A533CE /* DaoTextTests */,
+				F251F9D81B0E665B00A533CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F251F9D81B0E665B00A533CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F251F9D71B0E665B00A533CE /* DaoText.app */,
+				F251F9EC1B0E665B00A533CE /* DaoTextTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F251F9D91B0E665B00A533CE /* DaoText */ = {
+			isa = PBXGroup;
+			children = (
+				F251FA121B0F00DA00A533CE /* View */,
+				F251FA0B1B0EDDB300A533CE /* Controller */,
+				F251F9DC1B0E665B00A533CE /* AppDelegate.swift */,
+				F251FA021B0E843100A533CE /* Model */,
+				F251F9DA1B0E665B00A533CE /* Supporting Files */,
+			);
+			path = DaoText;
+			sourceTree = "<group>";
+		};
+		F251F9DA1B0E665B00A533CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F251F9FC1B0E746200A533CE /* DaoText.plist */,
+				F251FA0E1B0EE57300A533CE /* DaoAudio.plist */,
+				F251F9DB1B0E665B00A533CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F251F9EF1B0E665B00A533CE /* DaoTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				F251F9F21B0E665B00A533CE /* DaoTextTests.swift */,
+				F251F9F01B0E665B00A533CE /* Supporting Files */,
+			);
+			path = DaoTextTests;
+			sourceTree = "<group>";
+		};
+		F251F9F01B0E665B00A533CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F251F9F11B0E665B00A533CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F251FA021B0E843100A533CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F251FA101B0EEE9A00A533CE /* Cache.swift */,
+				F251FA001B0E83F400A533CE /* Game.swift */,
+				F251FA031B0E850300A533CE /* TextGame.swift */,
+				F251F9FE1B0E7F7C00A533CE /* DAOText.swift */,
+				F251FA051B0E877100A533CE /* AudioGame.swift */,
+				F251FA071B0E87BB00A533CE /* DAOAudio.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F251FA0B1B0EDDB300A533CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F251FA0C1B0EDDBD00A533CE /* RegisterTextVC.swift */,
+				F251FA131B0F0C1C00A533CE /* MostrarRegisterTextVCViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F251FA121B0F00DA00A533CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F251F9E31B0E665B00A533CE /* Images.xcassets */,
+				F251F9E01B0E665B00A533CE /* Main.storyboard */,
+				F251F9E51B0E665B00A533CE /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F251F9D61B0E665B00A533CE /* DaoText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F251F9F61B0E665B00A533CE /* Build configuration list for PBXNativeTarget "DaoText" */;
+			buildPhases = (
+				F251F9D31B0E665B00A533CE /* Sources */,
+				F251F9D41B0E665B00A533CE /* Frameworks */,
+				F251F9D51B0E665B00A533CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaoText;
+			productName = DaoText;
+			productReference = F251F9D71B0E665B00A533CE /* DaoText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F251F9EB1B0E665B00A533CE /* DaoTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F251F9F91B0E665B00A533CE /* Build configuration list for PBXNativeTarget "DaoTextTests" */;
+			buildPhases = (
+				F251F9E81B0E665B00A533CE /* Sources */,
+				F251F9E91B0E665B00A533CE /* Frameworks */,
+				F251F9EA1B0E665B00A533CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F251F9EE1B0E665B00A533CE /* PBXTargetDependency */,
+			);
+			name = DaoTextTests;
+			productName = DaoTextTests;
+			productReference = F251F9EC1B0E665B00A533CE /* DaoTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F251F9CF1B0E665B00A533CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Astral Chest";
+				TargetAttributes = {
+					F251F9D61B0E665B00A533CE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F251F9EB1B0E665B00A533CE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F251F9D61B0E665B00A533CE;
+					};
+				};
+			};
+			buildConfigurationList = F251F9D21B0E665B00A533CE /* Build configuration list for PBXProject "DaoText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F251F9CE1B0E665B00A533CE;
+			productRefGroup = F251F9D81B0E665B00A533CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F251F9D61B0E665B00A533CE /* DaoText */,
+				F251F9EB1B0E665B00A533CE /* DaoTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F251F9D51B0E665B00A533CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F251F9FD1B0E746200A533CE /* DaoText.plist in Resources */,
+				F251F9E21B0E665B00A533CE /* Main.storyboard in Resources */,
+				F251FA0F1B0EE57300A533CE /* DaoAudio.plist in Resources */,
+				F251F9E71B0E665B00A533CE /* LaunchScreen.xib in Resources */,
+				F251F9E41B0E665B00A533CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F251F9EA1B0E665B00A533CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F251F9D31B0E665B00A533CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F251FA0D1B0EDDBD00A533CE /* RegisterTextVC.swift in Sources */,
+				F251FA041B0E850300A533CE /* TextGame.swift in Sources */,
+				F251FA111B0EEE9A00A533CE /* Cache.swift in Sources */,
+				F251FA061B0E877100A533CE /* AudioGame.swift in Sources */,
+				F251F9FF1B0E7F7C00A533CE /* DAOText.swift in Sources */,
+				F251F9DD1B0E665B00A533CE /* AppDelegate.swift in Sources */,
+				F251FA141B0F0C1C00A533CE /* MostrarRegisterTextVCViewController.swift in Sources */,
+				F251FA011B0E83F400A533CE /* Game.swift in Sources */,
+				F251FA081B0E87BB00A533CE /* DAOAudio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F251F9E81B0E665B00A533CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F251F9F31B0E665B00A533CE /* DaoTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F251F9EE1B0E665B00A533CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F251F9D61B0E665B00A533CE /* DaoText */;
+			targetProxy = F251F9ED1B0E665B00A533CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F251F9E01B0E665B00A533CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F251F9E11B0E665B00A533CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F251F9E51B0E665B00A533CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F251F9E61B0E665B00A533CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F251F9F41B0E665B00A533CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F251F9F51B0E665B00A533CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F251F9F71B0E665B00A533CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DaoText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F251F9F81B0E665B00A533CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DaoText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F251F9FA1B0E665B00A533CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DaoTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaoText.app/DaoText";
+			};
+			name = Debug;
+		};
+		F251F9FB1B0E665B00A533CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DaoTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaoText.app/DaoText";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F251F9D21B0E665B00A533CE /* Build configuration list for PBXProject "DaoText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F251F9F41B0E665B00A533CE /* Debug */,
+				F251F9F51B0E665B00A533CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F251F9F61B0E665B00A533CE /* Build configuration list for PBXNativeTarget "DaoText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F251F9F71B0E665B00A533CE /* Debug */,
+				F251F9F81B0E665B00A533CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F251F9F91B0E665B00A533CE /* Build configuration list for PBXNativeTarget "DaoTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F251F9FA1B0E665B00A533CE /* Debug */,
+				F251F9FB1B0E665B00A533CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F251F9CF1B0E665B00A533CE /* Project object */;
+}
